@@ -32,4 +32,3 @@ function prependKitten(name)
   let temp = [name, ...kittens]
   return temp;
 }
-
