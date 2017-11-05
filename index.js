@@ -23,7 +23,6 @@ function destructivelyRemoveLastKitten()
 
 function appendKitten(name)
 {
-  var temp = kittens;
-  temp.push(name);
+  var temp = [...kittens, name];
   return temp;
 }
