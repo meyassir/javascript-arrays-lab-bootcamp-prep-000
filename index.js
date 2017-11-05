@@ -23,6 +23,13 @@ function destructivelyRemoveLastKitten()
 
 function appendKitten(name)
 {
-  var temp = [...kittens, name];
+  let temp = [...kittens, name];
   return temp;
 }
+
+function prependKitten(name)
+{
+  let temp = [name, ...kittens]
+  return temp;
+}
+
